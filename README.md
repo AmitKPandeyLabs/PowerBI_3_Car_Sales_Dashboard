@@ -10,11 +10,11 @@
 
 <br>
 
-## 📈 Project Overview
+##  Project Overview
 
 This Power BI project provides a comprehensive analysis of car sales data. The solution ingests data from multiple disparate sources, transforms it into a clean star schema model, and presents it in a dynamic, multi-page interactive dashboard. The report empowers sales directors, regional managers, and marketing teams to analyze performance by company, body style, region, and time, enabling data-driven decisions to optimize sales and pricing strategies.
 
-## 🎯 Objectives
+##  Objectives
 
 -	Analyze Year-to-Date (YTD) and Month-to-Date (MTD) performance for key metrics: Total Sales, Cars Sold, and Average Price.
 -	Measure and compare Year-over-Year (YoY) growth to identify trends and assess business health.
@@ -23,7 +23,7 @@ This Power BI project provides a comprehensive analysis of car sales data. The s
 -	Identify top-performing car companies and their contribution to total sales.
 -	Enable deep-dive analysis through interactive slicers for granular insights.
 
-## 🔍 Key Dashboard Features
+##  Key Dashboard Features
 
 **Key KPIs:**
 - **YTD Total Sales:** $371.2M (with 23.59% YoY growth)
@@ -48,7 +48,7 @@ This Power BI project provides a comprehensive analysis of car sales data. The s
 **Interactive Slicers:**
 -	A dedicated filter pane to drill down into the data by `Body Style`, `Dealer_Name`, `Transmission`, and `Engine`.
 
-## 💡 Notable Insights
+##  Notable Insights
 
 -	The business is experiencing strong **Year-over-Year growth**, with YTD Cars Sold up 24.57% and Total Sales up 23.59%.
 -	The **Average Price has remained stable** (down only -0.79% YoY), indicating that growth is driven by volume, not just price inflation.
@@ -56,7 +56,7 @@ This Power BI project provides a comprehensive analysis of car sales data. The s
 -	**SUVs** are the most popular body style, driving a substantial portion of total sales.
 -	The matrix reveals different company strategies: some brands (like **Volvo**) have a high average price ($27.9K) and lower volume, while others (like **Toyota**) achieve high total sales ($17.5M) through greater volume (593 cars sold).
 
-## 🛠️ Tools & Skills Demonstrated
+##  Tools & Skills Demonstrated
 
 -	**Power BI Desktop**: Data Import (multiple CSVs), Data Modeling, Visualization.
 -	**Power Query (ETL)**: Connected to 10+ disparate flat files, performed extensive data cleaning and transformation (handling nulls, changing data types), and merged queries to create a robust **star schema data model**.
@@ -68,7 +68,7 @@ This Power BI project provides a comprehensive analysis of car sales data. The s
 -	**Dashboard Design (UI/UX)**: Created a multi-page report with a clean, professional UI, including a main "Overview" page for high-level KPIs and a "Details" page for granular analysis.
 -	**Power BI Service**: Published the final report to the web to enable live, interactive stakeholder access.
 
-## 🚀 Usage
+##  Usage
 
 1. **[Launch (Ctrl+Click opens new tab) the interactive dashboard](https://app.powerbi.com/view?r=eyJrIjoiNWYwM2MyZTUtNGU3Mi00MzhlLWIwZGMtNzM3MGFkYmI5MjQ3IiwidCI6ImIxMGVjNzYyLTA1NjEtNDVmZS1iN2NmLWFjMWI4MzZkZTI3NyIsImMiOjF9)**.
 2. Use the slicers on the left pane to filter the entire report by `Body Style`, `Dealer_Name`, `Transmission`, or `Engine`.
